@@ -1,0 +1,17 @@
+<html>
+	<head></head>
+	<body>
+		<script type="text/javascript" src="http://static.hdslb.com/js/jquery.min.js"></script>
+		<script type="text/javascript">
+			var target = {};
+			var oZhuzi = {name: 'zhuzi', age: 18};
+
+			var result = $.extend(target, oZhuzi, {age: 181}, {xxxxx});
+
+			console.log(target);
+			console.log(oZhuzi);
+			console.log(result);
+
+		</script>
+	</body>
+</html>
